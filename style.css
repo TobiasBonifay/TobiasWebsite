@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 /* ------------------- Variables ------------------------ */
 
 :root{
     /* text colors */
-    --text-gray : #808291;
-    --text-white: #f8f9fa;
-    --text-light: #f6f6f6;
-    --text-dark : #1A3260;
-    --text-dark2 : #1A3760D4;
+    --text-white : #ffffff;
+    --text-blue: #0080ff;
+    --text-light: #ffffff;
+    --text-dark : rgb(183, 234, 202);
     --text-red : #ff4d6d;
     --box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
     --bg-blue: rgb(249, 243, 255);
@@ -20,15 +17,15 @@
     --font-poppins : "Poppins", 'sans-serif';
 
     /* gradient colors */
-    --bg-gradient : linear-gradient(to right, #ff512f, #dd2476);
-    --bg-gradient-indigo: linear-gradient(to right, #8e2de2, #4a00e0);
+    --bg-gradient : linear-gradient(to right, #d1f3ff, #bcd5ff);
+    --bg-gradient-indigo: linear-gradient(to right, #e1c1ff, #c7afff);
     --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
 
     /* images */
-    --bg-cover : url('assets/bgimg1.png');
-    --bg-image1: url('assets/img1.png');
-    --bg-image2: url('assets/img2.png');
-    --bg-image3: url('assets/img3.png');
+    --bg-cover : url('assets/bg.jpg');
+    --bg-image1: url('assets/bg.jpg');
+    --bg-image2: url('assets/bg.jpg');
+    --bg-image3: url('assets/bg.jpg');
 }
 
 * > * {
@@ -55,7 +52,7 @@ ul{
 }
 
 .text-white{
-    color: var(--text-white);
+    color: var(--text-blue);
 }
 
 .text-light{
@@ -63,7 +60,7 @@ ul{
 }
 
 .text-gray{
-    color: var(--text-gray);
+    color: var(--text-white);
 }
 
 .text-red{
@@ -203,7 +200,7 @@ ul{
 }
 
 .link{
-    color: var(--text-dark2);
+    color: var(--text-dark);
     font-weight: bold;
 }
 
@@ -224,7 +221,7 @@ ul{
     font-weight: bold;
 }
 
-.btn-shodow{
+.btn-shadow{
     box-shadow: var(--box-shadow);
 }
 
@@ -237,7 +234,7 @@ ul{
     object-fit: fill;
 }
 
-.d-iniine{
+.d-inline{
     display: inline-block;
 }
 
@@ -374,7 +371,7 @@ ul{
 }
 
 #nav .collapse{
-    max-height: 0px;
+    max-height: 0;
     overflow-y: hidden;
     transition: all 0.9s ease;
 }
@@ -396,7 +393,7 @@ ul{
     position: absolute;
     right: 0; top: 0;
     padding: 1rem;
-    color: var(--text-dark2);
+    color: var(--text-dark);
 }
 
 #nav .flex-initial ul button{
@@ -426,14 +423,6 @@ ul{
     padding-top: 16rem;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 /* ------------------- /Banner area Style ------------------------ */
 
 
@@ -457,7 +446,7 @@ ul{
 }
 
 #site-main .life-area .grid-images .item-one{
-    background: var(--text-gray);
+    background: var(--text-white);
     grid-column-start: 1;
     grid-column-end: 8;
     grid-row-start: 2;
@@ -469,7 +458,7 @@ ul{
 }
 
 #site-main .life-area .grid-images .item-two{
-    background: var(--text-gray);
+    background: var(--text-white);
     grid-column-start: 9;
     grid-column-end: 16;
     grid-row-start: 1;
