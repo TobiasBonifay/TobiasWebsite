@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobias Portfolio</title>
     <!-- stylesheet -->
-    <script src="masonry.pkgd.js"></script>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/particle.css">
+    <link rel="stylesheet" href="src/animate.css"/>
+    <link rel="stylesheet" href="src/style.css"/>
 </head>
 <body>
 
@@ -22,64 +22,80 @@
 
         <div class="toggle-btn">
             <button class="btn">
-                <i class="bi bi-filter-right"></i>
+                <!-- <i class="bi bi-filter-right"></i> -->
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAqUlEQVRoge2WMQrCUBAFg+fw1zm7IWBt4Y1USC4wKfw2+lm1SFjIDKQKs+EVgek6EZG0AAUYgbk+Z6DP5kXH7nzyAEoWLxowNo69GLJ40YA5ODhl8Q5/L6vfy+JFA67Bu0sirw3Q8/yB3rkBxyzetxEFGICpPqdfjm3tiYgkBWt0fS8aYI1u4VmjCbw2WKPWqIjsHqzR9b1ogDW6hWeNJvDaYI1aoyKyBxbv3epZ7uwvewAAAABJRU5ErkJggg==" alt="X"/>
             </button>
         </div>
 
         <div class="collapse flex-grow">
             <ul class="flex">
-                <li>
-                    <a href="#" class="link">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="link">About</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Services</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Work</a>
-                </li>
-                <li>
-                    <a href="#" class="link">Contact</a>
-                </li>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="#" class="link">About</a></li>
+                <li><a href="#" class="link">Services</a></li>
+                <li><a href="#" class="link">Work</a></li>
+                <li><a href="#" class="link">Contact</a></li>
             </ul>
         </div>
 
         <div class="flex-initial">
             <ul class="flex">
-                <button class="btn btn-primary btn-shadow bg-gradient text-white text-uppercase">Hi
-                </button>
+                <button class="btn btn-primary btn-shadow bg-gradient text-gray text-uppercase">Hi</button>
             </ul>
         </div>
-
     </nav>
 </header>
 <!-- @@@@@@@@@@@@  /Header Section @@@@@@@@@@@@@ -->
-
-
 <!-- @@@@@@@@@@@@  Main Section @@@@@@@@@@@@@ -->
 <main id="site-main">
+    <div id="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
 
     <!-- banner area -->
     <section class="banner-area font-poppins">
-        <div class="container mx-auto banner-title">
+        <div class="container mx-auto mx-left banner-title">
             <div class="title">
                 <div class="py-2 branding text-gray text-lg sm-text-xl font-bold">
-                    <span class="d-block text-shadow">Tobias Bonifay</span>
-                    <span class="d-block text-shadow">IT sciences student</span>
-                    <span class="d-block text-shadow">from Polytech Nice</span>
+                    <span class="d-block text-shadow animate__animated animate__fadeInDown animate__faster">Tobias Bonifay</span>
+                    <span class="d-block text-shadow animate__animated animate__fadeInDown animate__fast">IT sciences student</span>
+                    <span class="d-block text-shadow animate__animated animate__fadeInDown">from Polytech Nice</span>
                 </div>
-                <div class="py-5">
+                <div class="py-5 animate__animated animate__fadeInUp animate__delay-1s">
                     <p class="text-gray text-shadow">Passionate Java Developer and coffee drinker...</p>
-                    <p class="text-gray text-shadow">Crafting software to perfection... Remember: Every project is special.</p>
-                    <p class="text-gray text-shadow"><em>Our passion for app development will never die</em></p>
+                    <p class="text-gray text-shadow">Crafting every software to perfection</p>
+                    <p class="text-gray text-shadow  animate__animated animate__delay-1s animate__rollIn"><br><em>Our passion for app development will never die</em></p>
                 </div>
                 <div class="py-5">
-                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">Java</span>
-                    <span class="d-inline btn btn-primary bg-gradient-purple text-purple">Py</span>
-                    <span class="d-inline btn btn-primary bg-gradient-green text-green">SQL</span>
-                    <a href="#" class="btn btn-primary bg-gradient text-white btn-shadow">Web</a>
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red animate__animated animate__fadeInUp animate__delay-2s animate__faster">Java</span>
+                    <span class="d-inline btn btn-primary bg-gradient-purple text-purple animate__animated animate__fadeInUp animate__delay-2s animate__fast">Py</span>
+                    <span class="d-inline btn btn-primary bg-gradient-green text-green animate__animated animate__delay-2s animate__fadeInUp">SQL</span>
+                    <span class="d-inline btn btn-primary bg-gradient text-blue btn-shadow animate__animated animate__delay-2s animate__fadeInUp animate__slow">Web</span>
                 </div>
             </div>
         </div>
@@ -89,14 +105,13 @@
     <!-- agency area -->
     <section class="agency-area">
         <div class="container mx-auto text-center font-poppins">
-            <span class="text-red">Join our Agency</span>
+            <span class="text-red">Contact me</span>
             <div class="area-title">
                 <h1 class="text-lg text-dark">
-                    We design and build beautiful digital <br>
-                    products that make a difference
+                    Welcome to my personal website
                 </h1>
             </div>
-
+            <!--
             <div class="grid cols-1 lg-cols-3 py-10">
                 <div class="grid-item px-5">
                     <div class="text-center text-2xl text-red">
@@ -104,7 +119,7 @@
                     </div>
                     <div class="text-center">
                         <h4 class="text-md py-2">Grow Your Business</h4>
-                        <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
                             inventore distinctio iure maiores.</p>
                     </div>
                 </div>
@@ -114,7 +129,7 @@
                     </div>
                     <div class="text-center">
                         <h4 class="text-md py-2">Digital Marketing</h4>
-                        <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
                             inventore distinctio iure maiores.</p>
                     </div>
                 </div>
@@ -124,37 +139,35 @@
                     </div>
                     <div class="text-center">
                         <h4 class="text-md py-2">Search Engine Optimization</h4>
-                        <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
                             inventore distinctio iure maiores.</p>
                     </div>
                 </div>
             </div>
-
+            -->
         </div>
     </section>
     <!-- /agency area -->
-
 
     <!-- digital life area -->
     <section class="container mx-auto life-area">
         <div class="grid cols-1 lg-cols-2 text-center md-text-left">
             <div class="grid-images">
-                <div class="item-one"></div>
-                <div class="item-two"></div>
-                <div class="item-three"></div>
+                <div data-rellax-speed="2" class="item-one rellax"></div>
+                <div data-rellax-speed="-1" class="item-two rellax"></div>
+                <div data-rellax-speed="1" class="item-three rellax"></div>
             </div>
             <div class="py-10">
-                <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experiance</span>
                 <div class="font-poppins">
                     <h1 class="text-lg text-dark py-5">
                         Connect people in <br>
                         digital life
                     </h1>
 
-                    <p class="py-5 text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates odit,
+                    <p class="py-5 text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates odit,
                         mollitia quidem minima modi praesentium?</p>
 
-                    <p class="text-gray py-5">
+                    <p class="text-white py-5">
                         Lorem50 ipsum dolor sit, amet consectetur
                         adipisicing elit. Voluptatibus fuga provident
                         consequuntur. Magnam, inventore
@@ -181,7 +194,6 @@
     <section class="container mx-auto counting-area">
         <div class="grid cols-1 lg-cols-2">
             <div class="grid-one text-center md-text-left">
-                <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experiance</span>
                 <div class="font-poppins">
                     <h1 class="text-lg text-dark py-5">
                         The hundred of <br>
@@ -189,7 +201,7 @@
                         still counting
                     </h1>
 
-                    <p class="text-gray mx-auto md-mx-initial">
+                    <p class="text-white mx-auto md-mx-initial">
                         Lorem40 ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quasi quidem
                         doloribus ex ab quis ipsa consequuntur beatae, magni fuga impedit sint,
                         omnis, quibusdam architecto cumque officiis cupiditate facilis error. Quos
@@ -203,19 +215,19 @@
                     <div class="grid lg-cols-2 btn-shadow  font-poppins">
                         <div class="item1 text-center">
                             <h1 class="text-dark text-xl">21+</h1>
-                            <span class="text-gray">Total Top Services</span>
+                            <span class="text-white">Total Top Services</span>
                         </div>
                         <div class="item2 text-center">
                             <h1 class="text-dark text-xl">29+</h1>
-                            <span class="text-gray">Countries</span>
+                            <span class="text-white">Countries</span>
                         </div>
                         <div class="item3 text-center">
                             <h1 class="text-dark text-xl">21%</h1>
-                            <span class="text-gray">Positive Feedback</span>
+                            <span class="text-white">Positive Feedback</span>
                         </div>
                         <div class="item4 text-center">
                             <h1 class="text-dark text-xl">3,798</h1>
-                            <span class="text-gray">Usual Users</span>
+                            <span class="text-white">Usual Users</span>
                         </div>
                     </div>
                 </div>
@@ -225,70 +237,69 @@
     </section>
     <!-- counting area -->
 
-
     <!-- card area -->
     <section class="container mx-auto card-area py-10">
         <div class="grid cols-1 lg-cols-3 font-poppins">
-            <div class="bg-gradient-peach">
+            <div class="bg-gradient-peach rellax" data-rellax-speed="2">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-app-indicator"></i></span>
                     <h2 class="text-dark">Mobile App</h2>
-                    <p class="py-5 text-gray">
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
                     </p>
                 </div>
             </div>
-            <div class="bg-gradient-blue">
+            <div class="bg-gradient-blue rellax" data-rellax-speed="1">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-lightbulb"></i></span>
                     <h2 class="text-dark">Strategy</h2>
-                    <p class="py-5 text-gray">
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
                     </p>
                 </div>
             </div>
-            <div class="bg-gradient-red">
+            <div class="bg-gradient-red rellax" data-rellax-speed="2">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-phone"></i></span>
                     <h2 class="text-dark">eCommerce</h2>
-                    <p class="py-5 text-gray">
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
                     </p>
                 </div>
             </div>
-            <div class="bg-gradient-yellow">
+            <div class="bg-gradient-yellow rellax" data-rellax-speed="2">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-apple"></i></span>
                     <h2 class="text-dark">Branding</h2>
-                    <p class="py-5 text-gray">
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
                     </p>
                 </div>
             </div>
-            <div class="bg-gradient-purple">
+            <div class="bg-gradient-purple rellax" data-rellax-speed="1">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-chevron-bar-expand"></i></span>
-                    <h2 class="text-dark">Experiance Design</h2>
-                    <p class="py-5 text-gray">
+                    <h2 class="text-dark">Experience Design</h2>
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
                     </p>
                 </div>
             </div>
-            <div class="bg-gradient-yellow">
+            <div class="bg-gradient-yellow rellax" data-rellax-speed="3">
                 <div class="card px-10 py-10">
                     <span class="d-block text-red text-xl"><i class="bi bi-building"></i></span>
                     <h2 class="text-dark">Mobile App</h2>
-                    <p class="py-5 text-gray">
+                    <p class="py-5 text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                         obcaecati iusto, commodi perspiciatis eum modi ratione. Ex
                         quidem nesciunt ab atque, asperiores quo, consectetur corrupti odio aperiam a neque minus!
@@ -302,7 +313,6 @@
     <!-- recent work area -->
     <section class="container mx-auto py-10 recent-work-area">
         <div class="title">
-            <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experiance</span>
             <div class="font-poppins">
                 <h1 class="text-lg text-dark py-5">
                     Some recent work <br>
@@ -311,50 +321,50 @@
             </div>
 
             <div class="images-flex font-poppins">
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
-                    <h3 class="text-dark">Photo Retouching</h3>
-                    <span class="text-gray">Branding</span>
+                    <h3 class="text-dark ">Photo Retouching</h3>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Apple iPhone</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Yoga</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Recent News</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">New Apps</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">iPhone 13pro</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Share Market</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Desktop</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item animate__animated animate__fadeInUp">
                     <img src="assets/bg.jpg" alt="img1" class="w-100">
                     <h3 class="text-dark">Desktop</h3>
-                    <span class="text-gray">Branding</span>
+                    <span class="text-white">Branding</span>
                 </div>
             </div>
         </div>
@@ -369,33 +379,33 @@
         </div>
 
         <div class="grid cols-1 lg-cols-3 font-poppins py-10">
-            <div class="card">
+            <div class="card animate__animated animate__fadeInLeft">
                 <article class="btn-shadow">
                     <img src="assets/bg.jpg" class="w-100" alt="">
                     <div class="px-5 py-5">
-                        <span class="text-gray">Category 6 hours ago</span>
+                        <span class="text-white">Category 6 hours ago</span>
                         <a href="#">
                             <h2 class="text-dark">Free advertizing of your online business</h2>
                         </a>
                     </div>
                 </article>
             </div>
-            <div class="card">
+            <div class="card animate__animated animate__fadeInLeft">
                 <article class="btn-shadow">
                     <img src="assets/bg.jpg" class="w-100" alt="">
                     <div class="px-5 py-5">
-                        <span class="text-gray">Category 6 hours ago</span>
+                        <span class="text-white">Category 6 hours ago</span>
                         <a href="#">
                             <h2 class="text-dark">Free advertizing of your online business</h2>
                         </a>
                     </div>
                 </article>
             </div>
-            <div class="card">
+            <div class="card animate__animated animate__fadeInLeft">
                 <article class="btn-shadow">
                     <img src="assets/bg.jpg" class="w-100" alt="">
                     <div class="px-5 py-5">
-                        <span class="text-gray">Category 6 hours ago</span>
+                        <span class="text-white">Category 6 hours ago</span>
                         <a href="#">
                             <h2 class="text-dark">Free advertizing of your online business</h2>
                         </a>
@@ -407,11 +417,11 @@
     <!-- /article area -->
 
     <!-- ready area -->
-    <section class="ready-area container mx-auto py-5">
+    <section class="ready-area container mx-auto py-5 animate__animated animate__zoomIn">
         <div class="flex flex-wrap font-poppins btn-shadow py-10 sm-px-10">
             <div class="w-50">
                 <h1 class="text-lg sm-text-xl text-dark">Ready to get started?</h1>
-                <p class="text-gray">
+                <p class="text-white">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime illo voluptate aliquam
                     libero fuga voluptas corporis laudantium, excepturi modi.
                 </p>
@@ -424,14 +434,90 @@
         </div>
     </section>
     <!-- /ready area -->
-
-
 </main>
 <!-- @@@@@@@@@@@@  /Main Section @@@@@@@@@@@@@ -->
 
+<!-- @@@@@@@@@@@@  Footer Section @@@@@@@@@@@@@ -->
+<footer id="footer">
+    <section class="container mx-auto py-10">
+    <!--
+    <div class="grid md-cols-2 lg-cols-4 font-poppins">
+        <div class="text-white text-center md-text-left">
+                <span>
+                    4384 Briarhill Lane
+                    Youngstown, Ohio 44503
+                </span>
+            <span class="d-block">(216)272-0560</span>
+            <span class="text-red">dailytuition@gmail.com</span>
+        </div>
+        <div class="text-white text-center md-text-left">
+            <h3 class="text-dark">About</h3>
+            <div class="py-5">
+                <a href="#" class="d-block">
+                    <span class="text-white">About us</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Blog</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Portfolio</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Careers</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Partners</span>
+                </a>
+            </div>
+        </div>
+        <div class="text-white text-center md-text-left">
+            <h3 class="text-dark">Services</h3>
+            <div class="py-5">
+                <a href="#" class="d-block">
+                    <span class="text-white">eCommerce</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Branding</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Strategy</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Design</span>
+                </a>
+                <a href="#" class="d-block">
+                    <span class="text-white">Digital Marketing</span>
+                </a>
+            </div>
+        </div>
+        <div class="text-white text-center md-text-left">
+            <h3 class="text-dark">Newsleter</h3>
+            <p>
+                Subcribe our Newsletter to get the <br>
+                latest news & updates.
+            </p>
+
+            <div class="flex py-5">
+                <input type="text" class="subscribe-text" placeholder="Enter Email Address">
+                <button class="btn btn-go">Go</button>
+            </div>
+        </div>
+    </div>
+    -->
+
+        <div class="copyrights font-poppins">
+            <p class="text-white py-5 text-center">
+                © 2022 Tobias Bonifay. All rights reserved.
+            </p>
+        </div>
+
+    </section>
+</footer>
+<!-- @@@@@@@@@@@@  /Footer Section @@@@@@@@@@@@@ -->
 
 <!-- scripts -->
-<script src="masonry.pkgd.js"></script>
-<script src="main.js"></script>
+<script src="src/masonry.pkgd.js"></script>
+<script src="src/rellax.js"></script>
+<script src="src/main.js"></script>
 </body>
 </html>

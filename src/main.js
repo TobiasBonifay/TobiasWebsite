@@ -13,10 +13,15 @@ window.onload = function digital_fn(){
     // mansonry js
     let grid = document.querySelector("#site-main .recent-work-area .images-flex");
 
-    let msnry = new Masonry(grid, {
+    // anonymous mansory
+    new Masonry(grid, {
         itemSelector : '.flex-item',
         gutter : 100,
         fitWidth: true,
     })
-
 }
+
+// anonymous class
+new Rellax('.rellax', {
+    center: true
+});
