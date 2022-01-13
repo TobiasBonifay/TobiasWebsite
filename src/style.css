@@ -1,4 +1,20 @@
 /* ------------------- Variables ------------------------ */
+@font-face {
+    font-family: "Calibre";
+    src: url(../fonts/CalibreRegular.otf) format("truetype");
+    src: url(../fonts/CalibreSemiBold.otf) format("truetype");
+    src: url(../fonts/CalibreBold.otf) format("truetype");
+    src: url(../fonts/CalibreBlack.otf) format("truetype");
+    src: url(../fonts/CalibreThin.otf) format("truetype");
+    src: url(../fonts/CalibreLight.otf) format("truetype");
+    src: url(../fonts/CalibreMedium.otf) format("truetype");
+}
+@font-face {
+    font-family: "Acronym";
+    src: url(../fonts/acronymregular.woff2) format("truetype");
+    src: url(../fonts/acronymsemibold.woff2) format("truetype");
+    src: url(../fonts/acronymlight.woff2) format("truetype");
+}
 
 :root {
     /* text colors */
@@ -19,7 +35,8 @@
     --shadow: 0 0 3px black, 0 1px 0 rgba(0, 0, 0, .55), 0 -1px 0 rgba(0, 0, 0, .75);
 
     /* font family */
-    --font-poppins: monospace;
+    --font-Acronym: "Acronym", cursive;
+    --font-Calibre: "Calibre", monospace;
 
     /* gradient colors */
     --bg-gradient: linear-gradient(to right, #d1f3ff, #bcd5ff);
@@ -40,7 +57,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: cursive;
+    font-family: var(--font-Acronym);
 }
 
 a {
@@ -123,8 +140,12 @@ ul {
     background: var(--bg-gradient-purple);
 }
 
-.font-poppins {
-    font-family: var(--font-poppins);
+.font-calibre {
+    font-family: var(--font-Calibre);
+}
+
+.font-acronym {
+    font-family: var(--font-Acronym);
 }
 
 .text-center {
@@ -251,8 +272,6 @@ ul {
 .btn-primary {
     padding: .8rem 2rem;
     border-radius: 50px;
-    font-family: var(--font-poppins);
-    font-weight: bold;
 }
 
 .btn-shadow {
@@ -405,6 +424,7 @@ ul {
     padding: 1rem 1.5rem;
     background: var(--nav-color);
     flex-direction: column;
+    /* font-weight: bolder; */
 }
 
 #nav .collapse {
