@@ -1,35 +1,35 @@
 /* ------------------- Variables ------------------------ */
 
-:root{
+:root {
     /* text colors */
     --text-white: #204241;
     --text-gray: #e8e8e8;
     --text-blue: #0080ff;
     --text-light: #ffffff;
-    --text-dark : rgb(25, 69, 98);
-    --text-red : #ff4d6d;
-    --text-green : #328d49;
+    --text-dark: rgb(25, 69, 98);
+    --text-red: #ff4d6d;
+    --text-green: #328d49;
     --text-purple: #5e27ad;
     --box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
     --bg-blue: rgb(249, 243, 255);
     --bg-red: rgb(254, 247, 252);
-    --bg-yellow:rgb(255, 255, 246);
+    --bg-yellow: rgb(255, 255, 246);
     --bg-purple: rgb(246, 255, 255);
     --nav-color: rgba(145, 148, 153, 1);
-    --shadow: 0 0 3px black, 0 1px 0 rgba(0,0,0, .55), 0 -1px 0 rgba(0,0,0, .75);
+    --shadow: 0 0 3px black, 0 1px 0 rgba(0, 0, 0, .55), 0 -1px 0 rgba(0, 0, 0, .75);
 
     /* font family */
-    --font-poppins : monospace;
+    --font-poppins: monospace;
 
     /* gradient colors */
-    --bg-gradient : linear-gradient(to right, #d1f3ff, #bcd5ff);
+    --bg-gradient: linear-gradient(to right, #d1f3ff, #bcd5ff);
     --bg-gradient-indigo: linear-gradient(to right, #e1c1ff, #c7afff);
     --bg-gradient-peach: linear-gradient(to right, #fff7f3, #fff7f3);
     --bg-gradient-green: linear-gradient(to right, #f4ffef, #e2ffe3);
     --bg-gradient-purple: linear-gradient(to right, #f8ebff, #f8e4ff);
 
     /* images */
-    --bg-cover : url('../assets/bg.jpg');
+    --bg-cover: url('../assets/bg.jpg');
     --bg-size: 100vh;
     --bg-image1: url('../assets/bg.jpg');
     --bg-image2: url('../assets/bg.jpg');
@@ -43,11 +43,11 @@
     font-family: cursive;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
@@ -59,27 +59,27 @@ ul{
     text-shadow: var(--shadow);
 }
 
-.text-dark{
+.text-dark {
     color: var(--text-dark);
 }
 
-.text-white{
+.text-white {
     color: var(--text-white);
 }
 
-.text-blue{
+.text-blue {
     color: var(--text-blue);
 }
 
-.text-light{
+.text-light {
     color: var(--text-light);
 }
 
-.text-gray{
+.text-gray {
     color: var(--text-gray);
 }
 
-.text-red{
+.text-red {
     color: var(--text-red);
 }
 
@@ -91,15 +91,15 @@ ul{
     color: var(--text-purple);
 }
 
-.bg-gradient{
+.bg-gradient {
     background: var(--bg-gradient);
 }
 
-.bg-gradient-indigo{
+.bg-gradient-indigo {
     background: var(--bg-gradient-indigo);
 }
 
-.bg-gradient-peach{
+.bg-gradient-peach {
     background: var(--bg-gradient-peach);
 }
 
@@ -107,97 +107,97 @@ ul{
     background: var(--bg-gradient-green);
 }
 
-.bg-gradient-red{
+.bg-gradient-red {
     background: var(--bg-red);
 }
 
-.bg-gradient-blue{
+.bg-gradient-blue {
     background: var(--bg-blue);
 }
 
-.bg-gradient-yellow{
+.bg-gradient-yellow {
     background: var(--bg-yellow);
 }
 
-.bg-gradient-purple{
+.bg-gradient-purple {
     background: var(--bg-gradient-purple);
 }
 
-.font-poppins{
+.font-poppins {
     font-family: var(--font-poppins);
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-sm{
+.text-sm {
     font-size: 1em;
     line-height: 1.5em;
 }
 
-.text-md{
+.text-md {
     font-size: 1.5em;
 }
 
-.text-lg{
+.text-lg {
     font-size: 2.2em;
     line-height: 3rem;
 }
 
-.text-xl{
+.text-xl {
     font-size: 3em;
 }
 
-.text-2xl{
+.text-2xl {
     font-size: 5em;
 }
 
-.font-bold{
+.font-bold {
     font-weight: bold;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-row{
+.flex-row {
     flex-direction: row;
 }
 
-.flex-column{
+.flex-column {
     flex-direction: column;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
 
-.flex-initial{
+.flex-initial {
     flex: 0 1 auto;
 }
 
-.flex-grow{
+.flex-grow {
     flex-grow: 1;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
-.container-fluid{
+.container-fluid {
     width: 98%;
 }
 
-.mx-auto{
+.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
@@ -208,91 +208,91 @@ ul{
     transform: translateX(-50%);
 }
 
-.py-2{
+.py-2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.py-5{
+.py-5 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.py-10{
+.py-10 {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
 }
 
-.px-5{
+.px-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-.px-10{
+.px-10 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
 }
 
-.link{
+.link {
     color: var(--text-gray);
     /* font-weight: bold; */
 }
 
-.link:hover{
+.link:hover {
     color: var(--text-red);
 }
 
-.btn{
+.btn {
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
 
-.btn-primary{
+.btn-primary {
     padding: .8rem 2rem;
     border-radius: 50px;
     font-family: var(--font-poppins);
     font-weight: bold;
 }
 
-.btn-shadow{
+.btn-shadow {
     box-shadow: var(--box-shadow);
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: var(--bg-gradient-indigo);
 }
 
-.bg-cover{
+.bg-cover {
     background-image: var(--bg-cover);
     object-fit: fill;
 }
 
-.d-inline{
+.d-inline {
     display: inline-block;
 }
 
-.d-block{
+.d-block {
     display: block;
 }
 
-.grid{
+.grid {
     display: grid;
 }
 
-.cols-1{
+.cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
 
-.btn-shadow{
+.btn-shadow {
     box-shadow: var(--box-shadow);
 }
 
@@ -302,15 +302,15 @@ ul{
 
 /* for large screen sm (640px) */
 @media (min-width: 640px) {
-    .container{
+    .container {
         max-width: 640px;
     }
 
-    .sm-text-xl{
+    .sm-text-xl {
         font-size: 3em;
     }
 
-    .sm-px-10{
+    .sm-px-10 {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
@@ -318,60 +318,60 @@ ul{
 
 /* for large screen md (768px) */
 @media (min-width: 768px) {
-    .container{
+    .container {
         max-width: 768px;
     }
 
-    .md-text-left{
+    .md-text-left {
         text-align: left;
     }
 
-    .md-mx-initial{
+    .md-mx-initial {
         margin: initial;
     }
 
-    .md-cols-2{
+    .md-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 /* for large screen lg (1024px) */
 @media (min-width: 1024px) {
-    .container{
+    .container {
         max-width: 1024px;
     }
 
-    #nav .toggle-btn > button{
+    #nav .toggle-btn > button {
         display: none;
     }
 
-    #nav{
+    #nav {
         flex-direction: row !important;
         padding-left: 6rem !important;
         padding-right: 6rem !important;
     }
 
-    .collapse{
+    .collapse {
         max-height: initial !important;
     }
 
-    .collapse ul{
+    .collapse ul {
         flex-direction: row !important;
     }
 
-    .active{
+    .active {
         max-height: 100% !important;
     }
 
-    .lg-cols-2{
+    .lg-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .lg-cols-3{
+    .lg-cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .lg-cols-4{
+    .lg-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
@@ -379,15 +379,15 @@ ul{
 
 /* for large screen xl (1280px) */
 @media (min-width: 1280px) {
-    .container{
+    .container {
         max-width: 1280px;
     }
 
-    #nav{
+    #nav {
         background: transparent !important;
     }
 
-    #nav .flex-initial ul button{
+    #nav .flex-initial ul button {
         display: inline-block !important;
     }
 
@@ -397,46 +397,48 @@ ul{
 
 
 /* ------------------- Navigation Style ------------------------ */
-#nav{
+#nav {
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 1rem 1.5rem;
     background: var(--nav-color);
     flex-direction: column;
 }
 
-#nav .collapse{
+#nav .collapse {
     max-height: 0;
     overflow-y: hidden;
     transition: all 0.9s ease;
 }
 
-#nav .collapse ul{
+#nav .collapse ul {
     flex-direction: column;
     text-align: center;
     padding: 0 3rem;
 }
 
-#nav .collapse ul > li{
+#nav .collapse ul > li {
     padding: 0 1.5rem;
     line-height: 3rem;
     font-size: 1.1em;
 }
 
-#nav .toggle-btn > button{
+#nav .toggle-btn > button {
     font-size: 2em;
     position: absolute;
-    right: 0; top: 0;
+    right: 0;
+    top: 0;
     padding: 1rem;
     color: var(--text-dark);
 }
 
-#nav .flex-initial ul button{
+#nav .flex-initial ul button {
     display: none;
 }
 
-.active{
+.active {
     max-height: 50vh !important;
 }
 
@@ -445,23 +447,21 @@ ul{
 
 /* ------------------- Banner area Style ------------------------ */
 
-#site-main .banner-area{
+#site-main .banner-area {
     width: 100%;
     position: relative;
     background-position-x: right;
-    background-image:
-        var(--bg-cover),
-        radial-gradient(circle, rgb(197, 197, 197) 0%, rgb(157, 157, 157) 60%, rgb(0, 0, 0) 100%),
-        radial-gradient(ellipse at top, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+    background-image: var(--bg-cover),
+    radial-gradient(circle, rgb(197, 197, 197) 0%, rgb(157, 157, 157) 60%, rgb(0, 0, 0) 100%),
+    radial-gradient(ellipse at top, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode:
-            soft-light,
-            darken;
+    background-blend-mode: soft-light,
+    darken;
     z-index: -99;
 }
 
-#site-main .banner-area .banner-title{
+#site-main .banner-area .banner-title {
     height: var(--bg-size);
     padding-top: 16rem;
 }
@@ -474,7 +474,7 @@ ul{
 
 
 /* ------------------- agency area Style ------------------------ */
-#site-main .agency-area{
+#site-main .agency-area {
     padding: 5em 0;
 }
 
@@ -483,17 +483,17 @@ ul{
 
 /* ------------------- digital life area Style ------------------------ */
 
-#site-main .life-area > .grid{
+#site-main .life-area > .grid {
     column-gap: 10em;
 }
 
-#site-main .life-area .grid-images{
+#site-main .life-area .grid-images {
     display: grid;
     grid-template-columns: repeat(16, minmax(10px, 1fr));
     grid-template-rows: repeat(8, minmax(100px, 1fr));
 }
 
-#site-main .life-area .grid-images .item-one{
+#site-main .life-area .grid-images .item-one {
     background: var(--text-white);
     grid-column-start: 1;
     grid-column-end: 8;
@@ -505,7 +505,7 @@ ul{
     filter: blur(1px);
 }
 
-#site-main .life-area .grid-images .item-two{
+#site-main .life-area .grid-images .item-two {
     background: var(--text-white);
     grid-column-start: 9;
     grid-column-end: 16;
@@ -517,7 +517,7 @@ ul{
     filter: blur(1px);
 }
 
-#site-main .life-area .grid-images .item-three{
+#site-main .life-area .grid-images .item-three {
     grid-area: 3 / 4 / 8 / 14;
     background: var(--bg-image3) no-repeat;
     background-size: cover;
@@ -528,21 +528,21 @@ ul{
 /* ------------------- /digital life area Style ------------------------ */
 
 /* ------------------- Counting area Style ------------------------ */
-#site-main .counting-area{
+#site-main .counting-area {
     padding: 7em 0;
 }
 
-#site-main .counting-area .grid-one p{
+#site-main .counting-area .grid-one p {
     width: 80%;
 }
 
-#site-main .counting-area .count-box{
+#site-main .counting-area .count-box {
     display: flex;
     justify-content: center;
     margin: 2em 0;
 }
 
-#site-main .counting-area .count-box .grid{
+#site-main .counting-area .count-box .grid {
     display: inline-grid;
     grid-gap: 2px;
     border-radius: 20px;
@@ -551,7 +551,7 @@ ul{
 }
 
 
-#site-main .counting-area .count-box .grid > div{
+#site-main .counting-area .count-box .grid > div {
     background-color: white;
     padding: 2em 2.5em;
     text-align: center;
@@ -560,10 +560,11 @@ ul{
 /* ------------------- /Counting area Style ------------------------ */
 
 /* ------------------- Card area Style ------------------------ */
-#site-main .card-area .grid{
+#site-main .card-area .grid {
     column-gap: 4em;
     row-gap: 2em;
 }
+
 /* ------------------- /Card area Style ------------------------ */
 
 /* ------------------- recent work area Style ------------------------ */
@@ -571,12 +572,12 @@ ul{
     margin: auto;
 }
 
-#site-main .recent-work-area .images-flex .flex-item{
+#site-main .recent-work-area .images-flex .flex-item {
     width: 360px;
     margin-bottom: 50px;
 }
 
-#site-main .recent-work-area .images-flex .flex-item img{
+#site-main .recent-work-area .images-flex .flex-item img {
     border-radius: 10px;
 }
 
@@ -584,20 +585,21 @@ ul{
 
 
 /* ------------------- Card area Style ------------------------ */
-#site-main .article-area .grid{
+#site-main .article-area .grid {
     column-gap: 5em;
 }
 
-#site-main .article-area .card article{
+#site-main .article-area .card article {
     border-radius: 10px;
 }
 
 /* ------------------- /Card area Style ------------------------ */
 
 /* ------------------- Ready area Style ------------------------ */
-#site-main .ready-area .flex{
+#site-main .ready-area .flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 /* ------------------- /Ready area Style ------------------------ */
