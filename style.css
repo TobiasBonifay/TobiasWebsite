@@ -29,6 +29,7 @@
 
     /* images */
     --bg-cover : url('assets/bg.jpg');
+    --bg-size: 100vh;
     --bg-image1: url('assets/bg.jpg');
     --bg-image2: url('assets/bg.jpg');
     --bg-image3: url('assets/bg.jpg');
@@ -448,7 +449,7 @@ ul{
 }
 
 #site-main .banner-area .banner-title{
-    height: 95vh;
+    height: var(--bg-size);
     padding-top: 16rem;
 }
 
