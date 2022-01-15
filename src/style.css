@@ -48,9 +48,9 @@
     /* images */
     --bg-cover: url('../assets/bg.jpg');
     --bg-size: 100vh;
-    --bg-image1: url('../assets/bg.jpg');
-    --bg-image2: url('../assets/bg.jpg');
-    --bg-image3: url('../assets/bg.jpg');
+    --bg-image1: url('../assets/gh.png');
+    --bg-image2: url('../assets/intellij.png');
+    --bg-image3: url('../assets/citadel.png');
 }
 
 * > * {
@@ -521,6 +521,7 @@ ul {
     grid-row-end: 5;
     background: var(--bg-image1) no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 8px;
     filter: blur(1px);
 }
@@ -533,6 +534,7 @@ ul {
     grid-row-end: 4;
     background: var(--bg-image2) no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 8px;
     filter: blur(1px);
 }
@@ -541,11 +543,20 @@ ul {
     grid-area: 3 / 4 / 8 / 14;
     background: var(--bg-image3) no-repeat;
     background-size: cover;
+    background-position: left;
     border-radius: 8px;
     z-index: 99;
 }
 
 /* ------------------- /digital life area Style ------------------------ */
+.belong1 {
+    max-height: 1.8em;
+}
+
+.belong2 {
+    max-height: 0.5em;
+    vertical-align: middle;
+}
 
 /* ------------------- Counting area Style ------------------------ */
 #site-main .counting-area {
