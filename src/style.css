@@ -68,14 +68,6 @@ ul {
     list-style-type: none;
 }
 
-.hidden {
-    display: none;
-    visibility: hidden;
-}
-.reveal {
-    display: inherit  !important;
-    visibility: visible !important;
-}
 
 /* ------------------- /Variables ------------------------ */
 
@@ -663,6 +655,15 @@ ul {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
+    .hidden {
+        display: none;
+        visibility: hidden;
+    }
+    .reveal {
+        display: inherit  !important;
+        visibility: visible !important;
+    }
+
 }
 
 /* for large screen xl (1280px) */
@@ -683,7 +684,6 @@ ul {
     #nav .flex-initial ul button {
         display: inline-block !important;
     }
-
 }
 
 /* ------------------- /Media Query ------------------------ */

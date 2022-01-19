@@ -28,18 +28,6 @@ new Rellax('.rellax', {
 
 var controller = new ScrollMagic.Controller();
 new ScrollMagic.Scene({triggerElement: "#life"})
-    .setClassToggle("#futurSoft", "reveal") // add class toggle
-    .addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#life"})
-    .setClassToggle("#bornNear", "reveal") // add class toggle
-    .addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#life"})
-    .setClassToggle("#imCurrently", "reveal") // add class toggle
-    .addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#life"})
-    .setClassToggle("#moreAbout", "reveal") // add class toggle
+    .setClassToggle("#futurSoft, #bornNear, #imCurrently, #moreAbout", "reveal") // add class toggle
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
