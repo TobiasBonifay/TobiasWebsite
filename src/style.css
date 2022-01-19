@@ -69,6 +69,28 @@ ul {
 }
 
 
+.hidden {;
+    opacity: 0;
+}
+
+.revealLeft {
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+.revealRight {
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.revealBottom {
+    animation-name: fadeInBottom;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 /* ------------------- /Variables ------------------------ */
 
 /* ------------------- Global Classes ------------------------ */
@@ -654,16 +676,6 @@ ul {
     .lg-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
-
-    .hidden {
-        display: none;
-        visibility: hidden;
-    }
-    .reveal {
-        display: inherit  !important;
-        visibility: visible !important;
-    }
-
 }
 
 /* for large screen xl (1280px) */
@@ -687,3 +699,38 @@ ul {
 }
 
 /* ------------------- /Media Query ------------------------ */
+
+/* ------------------- /Animations ------------------------ */
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -27,7 +27,24 @@ new Rellax('.rellax', {
 });
 
 var controller = new ScrollMagic.Controller();
-new ScrollMagic.Scene({triggerElement: "#life"})
-    .setClassToggle("#futurSoft, #bornNear, #imCurrently, #moreAbout", "reveal") // add class toggle
+new ScrollMagic.Scene({triggerElement: "#digitalLifeTrigger"})
+    .setClassToggle("#futurSoft, #imCurrently", "revealLeft") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+new ScrollMagic.Scene({triggerElement: "#digitalLifeTrigger"})
+    .setClassToggle("#bornNear, #moreAbout", "revealRight") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#countingAreaTrigger"})
+    .setClassToggle("#theHundred", "revealLeft") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+new ScrollMagic.Scene({triggerElement: "#countingAreaTrigger"})
+    .setClassToggle("#ifYouAreCurrently", "revealRight") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+new ScrollMagic.Scene({triggerElement: "#countingAreaTrigger"})
+    .setClassToggle("#grid-two", "revealBottom") // add class toggle
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
