@@ -74,19 +74,36 @@ ul {
 }
 
 .revealLeft {
-    animation-name: fadeInRight;
+    animation-name: fadeInLeft;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 
 }
 .revealRight {
-    animation-name: fadeInLeft;
+    animation-name: fadeInRight;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 .revealBottom {
-    animation-name: fadeInBottom;
+    animation-name: fadeInUp;
     animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.revealBottom1 {
+    animation-name: backInUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.revealBottom2 {
+    animation-name: backInUp;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.revealBottom3 {
+    animation-name: backInUp;
+    animation-delay: 1s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
@@ -699,38 +716,3 @@ ul {
 }
 
 /* ------------------- /Media Query ------------------------ */
-
-/* ------------------- /Animations ------------------------ */
-
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(200px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(200px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(200px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
