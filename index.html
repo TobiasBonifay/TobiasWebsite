@@ -148,13 +148,13 @@
     <section class="container mx-auto life-area">
         <div class="grid cols-1 lg-cols-2 text-center md-text-left">
             <div class="grid-images">
-                <div data-rellax-speed="2" class="item-one rellax"></div>
-                <div data-rellax-speed="-1" class="item-two rellax"></div>
-                <div data-rellax-speed="1" class="item-three rellax"></div>
+                <div data-rellax-speed="4" class="item-one rellax"></div>
+                <div data-rellax-speed="1" class="item-two rellax"></div>
+                <div data-rellax-speed="2" class="item-three rellax"></div>
             </div>
-            <div class="py-10">
+            <div id="life" class="py-10">
                 <div class="">
-                    <h1 class="text-lg text-dark py-5">
+                    <h1 id="futurSoft" class="text-lg text-dark py-5 animate__animated animate__fadeInLeft animate__faster hidden">
                         Futur Software Engineer <img class="belong1" src="./assets/javanobgsm.png"/><br>
                         from
                         <span class="text-blue">F</span>
@@ -167,16 +167,16 @@
                         <img class="belong2" src="./assets/fr.png"/>
                     </h1>
 
-                    <p class="py-5 text-white">Born near Toulon, I'm studying at Nice, France<br>
+                    <p id="bornNear" class="py-5 text-white animate__animated animate__fadeInRight hidden">Born near Toulon, I'm studying at Nice, France<br>
                         at Ecole Polytechnique Universitaire de Sophia Antipolis.</p>
 
-                    <p class="text-white py-5">
+                    <p id="imCurrently" class="text-white py-5 animate__animated animate__fadeInLeft animate__slow hidden">
                         I'm currently improving my programming skills, algorithms, java language knowledge,
                         object-oriented programming concept, git usage, GASP principe, Maven...
                         <br>And also, competitive programming skills & english...
                     </p>
 
-                    <div class="py-5">
+                    <div id="moreAbout" class="py-5 animate__animated animate__fadeInRight animate__slower hidden">
                         <a href="#" class="btn btn-primary bg-gradient btn-shadow text-white">More about me</a>
                     </div>
 
@@ -481,6 +481,7 @@
 <!-- scripts -->
 <script src="src/masonry.pkgd.js"></script>
 <script src="src/rellax.js"></script>
+<script src="src/ScrollMagic.js"></script>
 <script src="src/main.js"></script>
 </body>
 </html>

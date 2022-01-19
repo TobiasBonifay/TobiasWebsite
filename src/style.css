@@ -68,6 +68,14 @@ ul {
     list-style-type: none;
 }
 
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.reveal {
+    display: inherit  !important;
+    visibility: visible !important;
+}
 
 /* ------------------- /Variables ------------------------ */
 
@@ -212,10 +220,12 @@ ul {
 
 .container {
     width: 100%;
+    overflow: hidden;
 }
 
 .container-fluid {
     width: 98%;
+    overflow: hidden;
 }
 
 .mx-auto {
