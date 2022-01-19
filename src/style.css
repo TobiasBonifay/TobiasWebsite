@@ -212,12 +212,10 @@ ul {
 
 .container {
     width: 100%;
-    padding: 0 1em 0 1em;
 }
 
 .container-fluid {
     width: 98%;
-    padding: 0 1em 0 1em;
 }
 
 .mx-auto {
@@ -565,6 +563,11 @@ ul {
 @media (min-width: 640px) {
     .container {
         max-width: 640px;
+        padding: 0 1em 0 1em;
+    }
+
+    .container-fluid {
+        padding: 0 1em 0 1em;
     }
 
     .sm-text-xl {
@@ -585,6 +588,11 @@ ul {
 
     .container {
         max-width: 768px;
+        padding: 0 1em 0 1em;
+    }
+
+    .container-fluid {
+        padding: 0 1em 0 1em;
     }
 
     .md-text-left {
@@ -604,6 +612,11 @@ ul {
 @media (min-width: 1024px) {
     .container {
         max-width: 1024px;
+        padding: 0 0.5em 0 0.5em;
+    }
+
+    .container-fluid {
+        padding: 0 0.5em 0 5em;
     }
 
     #nav .toggle-btn > button {
@@ -646,6 +659,11 @@ ul {
 @media (min-width: 1280px) {
     .container {
         max-width: 1280px;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 0;
     }
 
     #nav {
