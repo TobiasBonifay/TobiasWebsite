@@ -16,7 +16,7 @@ window.onload = function digital_fn(){
     // anonymous mansory
     new Masonry(grid, {
         itemSelector : '.flex-item',
-        gutter : 100,
+        gutter : 85,
         fitWidth: true,
     })
 }
