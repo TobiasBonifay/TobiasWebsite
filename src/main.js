@@ -62,3 +62,15 @@ new ScrollMagic.Scene({triggerElement: "#countingAreaTrigger"})
     .setClassToggle("#grid-two", "revealBottom") // add class toggle
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#recentWorkTrigger"})
+    .setClassToggle("#flexItem1, #flexItem2, #flexItem3", "revealTop") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#articleAreaTrigger"})
+    .setClassToggle("#card1, #card2, #card3", "revealTop") // add class toggle
+    .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
+
+

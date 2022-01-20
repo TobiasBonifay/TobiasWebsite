@@ -86,7 +86,6 @@ ul {
 }
 .revealBottom {
     animation-name: fadeInUp;
-    animation-delay: 0.5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
@@ -104,6 +103,11 @@ ul {
 .revealBottom3 {
     animation-name: backInUp;
     animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.revealTop {
+    animation-name: fadeInDown;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }

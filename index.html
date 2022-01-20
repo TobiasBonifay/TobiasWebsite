@@ -96,54 +96,7 @@
         </div>
     </section>
     <!-- /banner area -->
-
-    <!-- agency area -->
-    <section class="agency-area">
-        <div class="container mx-auto text-center">
-            <span class="text-red">Contact me</span>
-            <div class="area-title">
-                <h1 class="text-lg text-dark">
-                    Welcome to my personal website.
-                </h1>
-            </div>
-            <!--
-            <div class="grid cols-1 lg-cols-3 py-10">
-                <div class="grid-item px-5">
-                    <div class="text-center text-2xl text-red">
-                        <i class="bi bi-bricks"></i>
-                    </div>
-                    <div class="text-center">
-                        <h4 class="text-md py-2">Grow Your Business</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
-                            inventore distinctio iure maiores.</p>
-                    </div>
-                </div>
-                <div class="grid-item px-5">
-                    <div class="text-center text-2xl text-red">
-                        <i class="bi bi-megaphone"></i>
-                    </div>
-                    <div class="text-center">
-                        <h4 class="text-md py-2">Digital Marketing</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
-                            inventore distinctio iure maiores.</p>
-                    </div>
-                </div>
-                <div class="grid-item px-5">
-                    <div class="text-center text-2xl text-red">
-                        <i class="bi bi-mouse"></i>
-                    </div>
-                    <div class="text-center">
-                        <h4 class="text-md py-2">Search Engine Optimization</h4>
-                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, alias
-                            inventore distinctio iure maiores.</p>
-                    </div>
-                </div>
-            </div>
-            -->
-        </div>
-    </section>
-    <!-- /agency area -->
-
+    <div class="py-10"></div>
     <!-- digital life area -->
     <section id="digitalLifeTrigger1" class="container mx-auto life-area">
         <div class="grid cols-1 lg-cols-2 text-center md-text-left">
@@ -306,24 +259,24 @@
     <!-- card area -->
 
     <!-- recent work area -->
-    <section class="container mx-auto py-10 recent-work-area">
+    <section id="recentWorkTrigger" class="container mx-auto py-10 recent-work-area">
         <div class="title">
             <div class="">
                 <h1 class="text-lg text-dark py-5">Some projects</h1>
             </div>
 
             <div class="images-flex ">
-                <div class="flex-item">
+                <div id="flexItem1" class="flex-item hidden">
                     <img src="assets/parm.png" alt="logisim cpu" class="w-100">
                     <h3 class="text-dark ">P-ARM</h3>
                     <span class="text-white">Creating an ARM v0 based processor using Logisim</span>
                 </div>
-                <div class="flex-item">
+                <div id="flexItem2" class="flex-item hidden">
                     <img src="assets/citadel.jpg" alt="citadel pic" class="w-100">
                     <h3 class="text-dark">Citadel</h3>
                     <span class="text-white">Famous board game made with bots (AI) made in Java.</span>
                 </div>
-                <div class="flex-item">
+                <div id="flexItem3" class="flex-item hidden">
                     <img src="assets/pokerhand.png" alt="poker hand image" class="w-100">
                     <h3 class="text-dark">Poker Hand</h3>
                     <span class="text-white">Creating a poker-hand game-engine/analyzer.</span>
@@ -334,14 +287,14 @@
     <!-- /recent work area -->
 
     <!-- article area -->
-    <section class="article-area container mx-auto py-10">
+    <section id="articleAreaTrigger" class="article-area container mx-auto py-10">
         <div class="area-title text-center">
             <span class="text-red">Who am I?</span>
             <h1 class="text-lg text-dark">Useful Links</h1>
         </div>
 
         <div class="grid cols-1 lg-cols-3 py-10">
-            <div class="card animate__animated animate__fadeInLeft">
+            <div id="card1" class="card hidden">
                 <article class="btn-shadow">
                     <img src="assets/fl.png" class="w-100" alt="">
                     <div class="px-5 py-5">
@@ -352,7 +305,7 @@
                     </div>
                 </article>
             </div>
-            <div class="card animate__animated animate__fadeInLeft">
+            <div id="card2" class="card hidden">
                 <article class="btn-shadow">
                     <img src="assets/IMG-20210529-WA0001.jpg" class="w-100" alt="">
                     <div class="px-5 py-5">
@@ -363,7 +316,7 @@
                     </div>
                 </article>
             </div>
-            <div class="card animate__animated animate__fadeInLeft">
+            <div id="card3" class="card hidden">
                 <article class="btn-shadow">
                     <img src="assets/github.png" class="w-100" alt="">
                     <div class="px-5 py-5">
@@ -377,6 +330,51 @@
         </div>
     </section>
     <!-- /article area -->
+
+    <!-- agency area -->
+    <section class="agency-area">
+        <div class="container mx-auto text-center">
+            <span class="text-red">Résumé</span>
+            <div class="area-title">
+                <h1 class="text-lg text-dark">
+                    Tobias Bonifay
+                </h1>
+            </div>
+            <div class="grid cols-1 lg-cols-3 py-10">
+                <div class="grid-item px-5">
+                    <div class="text-center text-2xl text-red">
+                        <i class="bi bi-bricks"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-md py-2">Java Development</h4>
+                        <p class="text-white">Object oriented programming language.
+                            Java Base Language, Maven, Git, SOLID, GASP, BICEPS</p>
+                    </div>
+                </div>
+                <div class="grid-item px-5">
+                    <div class="text-center text-2xl text-red">
+                        <i class="bi bi-megaphone"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-md py-2">Website creation</h4>
+                        <p class="text-white">Front-end website creation on demand.
+                            HTML/CSS/JS/ANGULAR.JS/THREE.JS</p>
+                    </div>
+                </div>
+                <div class="grid-item px-5">
+                    <div class="text-center text-2xl text-red">
+                        <i class="bi bi-mouse"></i>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-md py-2">Search Engine Optimisation</h4>
+                        <p class="text-white">Natural Google search code optimisation, meta,
+                            social networks, mobile issue...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /agency area -->
 
     <!-- ready area -->
     <section class="ready-area container mx-auto py-5 animate__animated animate__zoomIn">
@@ -396,6 +394,7 @@
         </div>
     </section>
     <!-- /ready area -->
+
 </main>
 <!-- @@@@@@@@@@@@  /Main Section @@@@@@@@@@@@@ -->
 
