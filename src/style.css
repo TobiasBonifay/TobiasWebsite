@@ -720,3 +720,9 @@ ul {
 }
 
 /* ------------------- /Media Query ------------------------ */
+
+/* SVG add */
+svg {
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "TobiasWebsite",
+  "version": "1.0.0",
+  "dependencies": {
+    "scrollmagic-plugin-gsap": "^1.0.4"
+  }
+}
